@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+
+        body {
+            background-image: url(../img/background-hoc-tap-cho-tre_090658744.jpg);
+            background-size: cover;
+        }
+
+        div.wrapper {
+            height: 700px;
+            width: 1089px;
+            background-color: antiquewhite;
+        }
+
+        header {
+            height: 100px;
+            width: 1089px;
+            background-color: aqua;
+            position: relative;
+        }
+
+        .top-menu li {
+            height: 45px;
+            width: 100px;
+            background-color: rgb(131, 84, 175);
+            position: absolute;
+            top: 60px;
+            left: 400px;
+            line-height: 45px;
+            text-indent: 20px;
+            list-style: none;
+            border: 1px solid red;
+            border-radius: 10%;
+        }
+
+        .top-menu li:nth-child(1) {
+            top: 30px;
+            left: 410px;
+        }
+        .top-menu li:nth-child(2) {
+            top: 30px;
+            left: 515px;
+        }
+        .top-menu li:nth-child(3) {
+            top: 30px;
+            left: 620px;
+        }
+        .top-menu li:nth-child(4) {
+            top: 30px;
+            left: 725px;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .top-menu li:hover {
+            background-color: azure;
+        }
+
+        li:hover>a {
+            color: yellowgreen;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul class="top-menu">
+                    <li><a href="#">ITEM X</a></li>
+                    <li><a href="#">ITEM X</a></li>
+                    <li><a href="#">ITEM X</a></li>
+                    <li><a href="#">ITEM X</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+</body>
+</html>

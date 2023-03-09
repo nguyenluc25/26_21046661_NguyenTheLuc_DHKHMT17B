@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        .wrapper {
+            width: 900px;
+            height: 700px;
+        }
+        header {
+            background-color: #294e79;
+            position: relative;
+            height: 100px;
+        }
+
+        header #logo {
+            position: absolute;
+            height: 100px;
+            left: 20px;
+        }
+
+        header div.menu1 {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+        }
+
+        header .menu1 p:first-child {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: whitesmoke;
+            font-size: 37px;
+        }
+
+        header .menu1 p:last-child{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: whitesmoke;
+            font-size: 15px;
+        }
+
+        header #frm1 {
+            position: absolute;
+            right: 10px;
+        }
+
+        header .menu2 {
+            position: absolute;
+            bottom: 0px;
+            right: 10px;
+        }
+
+        header .menu2 li {
+            display: inline-block;
+            height: 20px;
+            border: 1px solid;
+            padding: 10px;
+            text-align: center;
+            margin-right: 10px;
+        }
+
+        header .menu2 li a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../img/AnhLogo.PNG" alt="logo" id="logo">
+            <div class="menu1">
+                <p>FlowerBox 360</p>
+                <p>...to get your daily dose of luxury roses!</p>
+            </div>
+            <form action="" id="frm1">
+                <input type="text" name="txtSearch" id="txtSearch">
+                <button type="submit">GO</button>
+            </form>
+            <ul class="menu2">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Promotion</a></li>
+                <li><a href="#">Gift Baskets</a></li>
+                <li><a href="#">Flower Services</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </header>
+    </div>
+</body>
+</html>
